@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<adminhtml_catalog_product_new>
+		<reference name="head">
+			<action method="addJs"><script>opa/optimisedproductaddition.js</script></action>
+		</reference>
+		<reference name="content">
+			<block type="core/template" name="opa" template="opa/opa.phtml"/>
+		</reference>
+	</adminhtml_catalog_product_new>
+</layout>
